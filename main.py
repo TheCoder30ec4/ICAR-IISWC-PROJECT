@@ -111,10 +111,10 @@ if 'connection_status' not in st.session_state:
 # Inject custom CSS
 inject_css()
 
-# Main Interface
-# st.markdown('<div class="logo-container">', unsafe_allow_html=True)
-# st.image("./logo.png", width=800)  # Adjust width for a balanced look
-# st.markdown('</div>', unsafe_allow_html=True)
+
+st.markdown('<div class="logo-container">', unsafe_allow_html=True)
+st.image("./logo.png", width=800)  # Adjust width for a balanced look
+st.markdown('</div>', unsafe_allow_html=True)
 
 st.markdown("<h1 class='header-text'>Real-Time Water Level Monitoring & Irrigation Control</h1>", 
             unsafe_allow_html=True)
